@@ -1,0 +1,14 @@
+{
+  "command": "OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONPATH=src python -m conformalwatch.experiment --out runs/reference",
+  "date": "2026-11-04",
+  "quick": false,
+  "seconds": 0.13181829219684005,
+  "environment": "environment.json",
+  "metrics_sha256": "87f9bfce5165078a54c016ada0133e1b6b84ce25d31cdb5299486f98a7d20971",
+  "source_sha256": {
+    "src/conformalwatch/__init__.py": "fb2b77ddf0326425b82c5a303655927272c81f1d210df8e8793a4407ef7fcf24",
+    "src/conformalwatch/core.py": "713d25d4e8376797787b2f98707328e7940dc89375820dca04b248ae4ce527b4",
+    "src/conformalwatch/experiment.py": "5fe3e93906318edb5e8c1e5fe13fef06405fc6a7bb39945c21017987767c8350",
+    "src/conformalwatch/visual.py": "54ab848a43f003d753a12fd263d15d9c7d8a2452d655fe2b9195cf22f20f122b"
+  }
+}
